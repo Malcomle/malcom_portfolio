@@ -25,7 +25,7 @@
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
           </div>
-          
+
           <div class="modal-body my-0 pb-0 px-4 pt-0">
             <div
               class="mb-2 date"
@@ -57,7 +57,7 @@
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            <button class="btn w-25" @click="$emit('close')">fermer</button>
           </div>
         </div>
       </div>

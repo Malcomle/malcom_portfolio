@@ -8,7 +8,7 @@
         'bg-dark3': nightMode,
       }"
     >
-    
+
       <div style="height: 180px;">
         <img
           class="card-img-top"
@@ -44,7 +44,7 @@
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+            En savoir plus
           </button>
           <button
             href="#"
@@ -52,7 +52,7 @@
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
-            visit website
+            Voir le site
           </button>
         </div>
       </div>

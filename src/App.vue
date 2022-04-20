@@ -6,7 +6,7 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Recommendation :nightMode="nightMode" />
+<!--      <Recommendation :nightMode="nightMode" />-->
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
@@ -43,14 +43,14 @@ export default {
       config: info.config,
     };
   },
-  
+
   created() {
     if (this.config.use_cookies) {
       this.nightMode = this.$cookie.get("nightMode") === "true" ? true : false;
     }
   },
   mounted() {
-    ["about", "contact", "skills", "portfolio"].forEach((l) => {
+    ["À propos de moi.", "Contact", "Compétences", "Mes projets"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });

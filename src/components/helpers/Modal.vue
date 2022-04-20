@@ -26,7 +26,7 @@
               ><i class="fas fa-times"></i
             ></a>
             <hr
-            
+
               class="my-1"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
@@ -62,10 +62,10 @@
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
-            <button class="btn w-25 mr-3" @click="open(portfolio.github)">
+            <button class="btn w-25 mr-3" v-if="portfolio.github" @click="open(portfolio.github)">
               github
             </button>
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            <button class="btn w-25" @click="$emit('close')">fermer</button>
           </div>
         </div>
       </div>

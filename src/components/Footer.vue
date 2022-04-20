@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Natain Bogdan</span>
+          <span>© 2022 Copyright: Malcom Morel</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -22,12 +22,6 @@
               @click="open('github')"
             >
               <i class="fab fa-github"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-            >
-              <i class="fab fa-angellist"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"

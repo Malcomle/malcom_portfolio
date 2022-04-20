@@ -17,7 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >Bonjour !</span
           >
           <div>
             <p v-html="description"></p>
@@ -38,17 +38,8 @@
               <i class="fab fa-github"></i>
             </button>
             <button
-            
-              class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-              v-tooltip.bottom="'AngelList'"
-            >
-              <i class="fab fa-angellist"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
+                class="btn btn-outline-secondary mx-2"
+                @click="open('resume')"
             >
               <i class="fa fa-file"></i>
             </button>

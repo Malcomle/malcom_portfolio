@@ -1,6 +1,6 @@
 let info = {
-  name: "Natain Bogdan",
-  logo_name: "Bogdan",
+  name: "Morel Malcom",
+  logo_name: "Malcom Morel",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -9,187 +9,173 @@ let info = {
     }
   },
   description:
-    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
+    "Je suis actuellement en deuxième année d'un BTS SIO. Motivé, curieux et investi, j'aime apprendre, développer et découvrir de nouveaux environnements !",
   links: {
-    linkedin: "https://www.linkedin.com/in/natain/",
-    github: "https://github.com/Natain",
-    angellist: "https://angel.co/u/Natain-Bogdan",
-    resume:
-      "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
+    linkedin: "https://www.linkedin.com/in/malcom-morel-5a99a31b7/",
+    github: "https://github.com/Malcomle",
+    resume: require("./src/assets/CVdev.png"),
   },
   education: [
     {
-      name: "Sapienza Università di Roma",
-      place: "italy",
-      date: "May, 2009 - May, 2011",
-      degree: "Economics Science",
-      gpa: "3.7/4.0",
-
+      name: "Lycée Chevrollier",
+      place: "Angers",
+      date: "2020 - 2022",
+      degree: "BTS SIO - SLAM",
+      description:
+          "En cours d'obtention.",
       skills: [
-        // "Skills gained:",
-        // "Design, conduct and interpret research and statistical analysis. ",
-        // "Apply an evidence-based approach to problems.",
-        // "Communicate findings using models, charts and graphs.",
-        // "Communicate research findings using clear, accurate, concise writing.",
-
-
+        "Javascript",
+        "Php",
+        "Laravel",
+        "C#",
+        "SQL",
       ]
     },
     {
-      name: "Ilbah workshops",
-      course:"Full Stack Developer",
-      place: "Bucharest/Romania",
-      date: "May, 2021 - Oct, 2021",
-      degree: "Bachelors in Programmer Help, cod COR 351201",
-      gpa: "8.5/10.0",
+      name: "Lycée Raphaël Elizé",
+      place: "Sablé sur Sarthe",
+      date: "2017 - 2020",
+      degree: "Baccalauréat STI2D - SIN",
       description:
-        "",
+          "Obtention du baccalauréat mention assez bien. Découverte du metier de developpeur.",
       skills: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "OOP",
-        "PHP",
-        "MySql",
-       "Laravel"
+        "Arduino",
+        "C++",
       ]
-    }
+    },
+    {
+      name: "Collège Saint Anne",
+      place: "Sablé sur Sarthe",
+      date: "2016",
+      degree: "Brevet des collèges.",
+      skills: []
+    },
+
   ],
   experience: [
 
     {
-      name: "Freelancer",
-      place: "Bucharest, Romania",
-      date: "Aug, 2021 - Present",
+      name: "Grumpy Guy",
+      place: "Angers",
+      date: "FÉVRIER 2022 - AVRIl 2022",
+      position: "Web / Mobile Developer",
+      description:
+          "Stage de 7 semaines dans lequel j'ai conçu une application mobile ayant pour objectif d’optimiser le processus de signalement à la police, le plus rapidement et avec le moins de clic possible.",
+
+      skills: [
+        "Flutter",
+        "Dart",
+        "Vue",
+        "JS",
+      ]
+    },
+    {
+      name: "MeilleurTaux",
+      place: "Le Mans",
+      date: "MAI 2021 - AOÛT 2021",
       position: "Full Stack Web Developer",
       description:
-        "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
+        "Stage de 6 semaines dans lequel j'ai du concevoir une API permettant l'automatisation de création d'un utilisateur dans un Active Directory. Authentification windows, gestion de tokens, de permissions et de rôles. Le backend est développé en .net core tandis que le frontend est codé en Angular.",
+
         skills: [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "Bootstrap",
-          "React.js",
-          "Vue.js",
-
-
+          "Angular",
+          ".Net",
+          "C#",
+          "JS",
+          "Active Directory",
         ]
     },
 
   ],
   skills: [
     {
-      title: "languages",
+      title: "Langages",
       info: [
         "Javascript",
-        "CSS",
-        "HTML5"
+        "Php",
+        "Dart",
+        "C#",
 
       ],
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
-      info: [
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
-    {
-      title: "web technologies",
-      info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
+      title: "Frameworks",
+      info: ["Flutter", "Vue.js", "Laravel", "Angular.js", ".Net", "SpringBoot"],
       icon: "fas fa-laptop-code"
     },
     {
-      title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL",],
+      title: "Base de données",
+      info: ["MongoDB", "MySQL", "SQL Server",],
       icon: "fa fa-database"
     },
-    {
-      title: "operating systems & tools",
-      info: [
-        "MacOS",
-        "Windows",
-        "Android",
-        "Scrum",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
-      ],
-      icon: "fas fa-tools"
-    },
-    {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
-    }
   ],
   portfolio: [
-
     {
-      name: "Todo-application",
+      name: "AskHim",
       pictures: [
-
         {
-          img: require("./src/assets/portfolio/todo-application/one.png")
+          img: require("./src/assets/portfolio/askhim/askhim.png")
         },
         {
-          img: require("./src/assets/portfolio/todo-application/two.png")
+          img: require("./src/assets/portfolio/askhim/detail.png")
+        },
+        {
+          img: require("./src/assets/portfolio/askhim/chat.png")
         },
 
       ],
-      technologies: ["JavaScript", "HTML5", "Netlify"],
-      category: "web todo list  app ",
-      github: "https://github.com/Natain/todo-application",
-      visit: "https://natainbogdan.netlify.app/",
+      technologies: ["Vue.js", "Javascript", "SpringBoot"],
+      github: "https://github.com/AskHim-SIO/AskHimWebApp",
+      visit: "https://askhim.ctrempe.fr/",
       description:
-        "Todo Application was made to help me with the learning schedule and it seams was doing a great job this app helping me to organize all the daily tasks."
+        "Besoin d'aide ? Ask him ! Proposez ou resolvez des services !"
     },
 
-
-
     {
-      name: "Grocery-listing-react",
-      pictures: [
-        // {
-        //   img: require("./src/assets/portfolio/clumpr/logo.png")
-        // },
-        {
-          img: require("./src/assets/portfolio/grocery/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/grocery/two.png")
-        }
-      ],
-      technologies: ["CSS", "JavaScript","React.js", "HTML5",],
-      category: "Web App",
-      github: "https://github.com/Natain/grocery-listing-react",
-      date: "",
-      visit: "https://grocery-listing-react.netlify.app/",
-      description:  "Grocery-listing-react it's a simple app that can help you doing shoppings.",
-    },
-    {
-      name: "Gitscores",
+      name: "Des bruits dans la rue",
       pictures: [
         {
-          img: require("./src/assets/portfolio/Gitscores/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/three.png")
+          img: require("./src/assets/portfolio/desbruitsdanslarue/home.jpg")
         },
 
       ],
-      technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-      category: "Scoring app for Github",
-      github: "https://github.com/Natain/gitscores",
-      date: "Aug, 2021 - Sep, 2021",
-      visit: "https://gitscores.herokuapp.com/",
+      technologies: ["Flutter", "Vue.js"],
+      category: "Application de gestion",
+      date: "Fev, 2022 - Avril, 2022",
       description:
-        "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
-    }
+          "Réalisation d’applications ayant pour objectif d’optimiser le processus de signalement à la police, le plus rapidement et avec le moins de clic possible. Un utilisateur effectue un signalement d’un problème typé. Ce problème est remonté et précisé à l’aide de captation audio ou vidéo. Sur une seconde application destinée à la police, sur une tablette sont affichés les différents problèmes remontés."
+    },
+
+    {
+      name: "Formulaire d'entrée dans l'entreprise",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/meilleurtaux/illustration.jpg")
+        },
+
+      ],
+      technologies: ["Angular.js", ".Net"],
+      description:
+          "Automatiser l'arrivée de nouveaux employées dans l'entreprise. Générer une adresse email, une session, les ajouters dans différentes base de données etc."
+    },
+
+    {
+      name: "Formaflix",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/formaflix/formaflix.png")
+        },
+
+      ],
+      technologies: ["C#", ".net"],
+      category: "Application de gestion",
+      github: "https://github.com/Malcomle/Formaflix_backend",
+      date: "Sept, 2021 - Nov, 2021",
+      description:
+        "Développement d'une application de gestion d'un site web avec WindowsForm. L'application permet de gerer et d'ajouter des formations, de moderer des commentaires par formations. "
+    },
+
   ],
    recommendations: [
     {
@@ -212,6 +198,7 @@ let info = {
 };
 
 export default info;
+
 
 
 
