@@ -17,6 +17,18 @@ let info = {
   },
   education: [
     {
+      name: "ESAIP École d'Ingénieurs",
+      place: "Angers",
+      date: "2022 - 2025",
+      degree: "Ingénieur du Numérique",
+      description:
+          "Projet à venir.",
+      skills: [
+        "Machine Learning",
+        "IA",
+      ]
+    },
+    {
       name: "Lycée Chevrollier",
       place: "Angers",
       date: "2020 - 2022",
@@ -101,13 +113,43 @@ let info = {
     },
     {
       title: "Frameworks",
-      info: ["Flutter", "Vue.js", "Laravel", "Angular.js", ".Net", "SpringBoot"],
+      info: ["Flutter", "Vue.js", "Laravel", "Angular.js", ".Net", "SpringBoot", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
+      title: "CSS Framworks",
+      info: ["Bootstrap", "Tailwind"],
+      icon: "fa fa-font"
+    },
+    {
       title: "Base de données",
-      info: ["MongoDB", "MySQL", "SQL Server",],
+      info: ["MongoDB", "MySQL", "SQL Server", "Firebase"],
       icon: "fa fa-database"
+    },
+    {
+      title: "Conception de base de données",
+      info: ["UML", "JMerise", "Win'Design",],
+      icon: "fa fa-database"
+    },
+    {
+      title: "Server",
+      info: ["Debian", "Ubuntu", "Netlify", "Firebase"],
+      icon: "fa fa-server"
+    },
+    {
+      title: "Gestion de projet - AGILE",
+      info: ["YouTrack", "Trello", "Notion"],
+      icon: "fa fa-check-square"
+    },
+    {
+      title: "Maquette",
+      info: ["Figma", "AdobeXD"],
+      icon: "fa fa-file"
+    },
+    {
+      title: "Versionning",
+      info: ["GitHub", "GitLab"],
+      icon: "fa fa-code-fork"
     },
   ],
   portfolio: [

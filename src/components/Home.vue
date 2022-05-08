@@ -40,6 +40,7 @@
             <button
                 class="btn btn-outline-secondary mx-2"
                 @click="open('resume')"
+                v-tooltip.bottom="'CV'"
             >
               <i class="fa fa-file"></i>
             </button>
